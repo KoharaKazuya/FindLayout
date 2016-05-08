@@ -35,6 +35,7 @@
     "start": "node lib/app.js",
     "prestart": "npm run build",
     "test": "eslint src",
-    "watch": "node-dev lib/app.js & node scripts/build.js --watch --debug"
+    "watch": "node-dev lib/app.js & node scripts/build.js --watch --debug",
+    "docker": "./run.sh"
   }
 }
