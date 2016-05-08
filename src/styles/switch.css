@@ -1,0 +1,54 @@
+.base {
+  display: inline-block;
+  position: relative;
+  padding: 8px 16px;
+  vertical-align: middle;
+}
+
+.bar {
+  display: block;
+  content: '';
+  width: 32px;
+  height: 16px;
+  border-radius: 8px;
+}
+
+.circle {
+  composes: depth1 from './shadow.css';
+  display: block;
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 4px;
+  right: auto;
+  border-radius: 12px;
+}
+
+.off {
+  composes: base;
+}
+
+.off .bar {
+  background-color: #000;
+  opacity: .26;
+}
+
+.off .circle {
+  left: 4px;
+  background-color: #FAFAFA;
+}
+
+.on {
+  composes: base;
+}
+
+.on .bar {
+  background-color: #6200EA;
+  opacity: .5;
+}
+
+.on .circle {
+  left: 36px;
+  background-color: #6200EA;
+}

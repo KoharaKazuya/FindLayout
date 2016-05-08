@@ -1,0 +1,4 @@
+.card {
+  composes: depth1 from './shadow.css';
+  border-radius: 2px;
+}

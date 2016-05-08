@@ -1,0 +1,19 @@
+.primary {
+  color: rgba(0, 0, 0, .87);
+}
+
+.secondary {
+  color: rgba(0, 0, 0, .54);
+}
+
+.hint {
+  color: rgba(0, 0, 0, .38);
+}
+
+.disabled {
+  composes: hint;
+}
+
+.accent {
+  color: #6200EA;
+}

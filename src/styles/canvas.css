@@ -1,0 +1,6 @@
+.base {
+  composes: depth1 from './shadow.css';
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+}

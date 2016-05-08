@@ -1,0 +1,25 @@
+.entrance {
+  composes: card from './card.css';
+  background-color: white;
+  /* 大きさ */
+  width: 640px;
+  height: 228px;
+  /* 位置 */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.inputs {
+  padding: 16px;
+}
+
+.actions {
+  padding: 8px;
+  text-align: right;
+  border-top: solid 1px rgba(0, 0, 0, .12);
+  margin-top: -1px;
+}

@@ -1,0 +1,41 @@
+.base {
+  height: 72px;
+  padding: 16px 0 8px;
+}
+
+.label {
+  composes: hint from '../color/text.css';
+  display: block;
+  height: 16px;
+  font-size: 12px;
+}
+
+.label_focus {
+  composes: label;
+  composes: accent from '../color/text.css';
+}
+
+.input {
+  composes: primary from '../color/text.css';
+  display: block;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, .12);
+  width: 100%;
+  height: 32px;
+  font-size: 16px;
+}
+
+.input[type="number"] {
+  text-align: right;
+}
+
+.input[type="number"]::-webkit-inner-spin-button,
+.input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input_focus {
+  composes: input;
+  border-bottom-color: #6200EA;
+}

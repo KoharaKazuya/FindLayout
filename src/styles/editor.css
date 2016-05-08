@@ -1,0 +1,14 @@
+.base {
+  padding: 0 0 0 320px;
+}
+
+.main {
+  position: relative;
+  overflow: auto;
+}
+
+.centerizer {
+  margin: auto;
+  padding: 16px;
+  width: min-content;
+}
